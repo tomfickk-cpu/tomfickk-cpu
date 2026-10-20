@@ -2,7 +2,7 @@
 
 ### Desenvolvedor de Software · Arquitetura Backend · AI-Native Engineering
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-conectar-0A66C2)](https://www.linkedin.com/in/wellington-fick)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-conectar-0A66C2)](https://www.linkedin.com/in/wellington-carlos-fick-416111431)
 [![GitHub](https://img.shields.io/badge/GitHub-tomfickk--cpu-181717)](https://github.com/tomfickk-cpu)
 
 Desenvolvedor focado em **backend, arquitetura de sistemas distribuídos e engenharia orientada a IA**. Projeto e mantenho em produção sistemas reais — não protótipos: uma plataforma de orquestração multiagente e um serviço de visão computacional para operação de restaurantes.
