@@ -15,6 +15,8 @@ Trabalho diariamente com o que o mercado chama de *AI-native development*: **con
 
 **894 agentes de IA · 960 testes · cobertura 100% do núcleo · v4.51.0**
 
+![Orchestrator](projetos/orchestrator/assets/cover.png)
+
 Plataforma de orquestração neural multiagente em produção:
 
 - **Roteamento por intenção** com confiança explícita e fallback 3+1 camadas
