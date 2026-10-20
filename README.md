@@ -13,7 +13,7 @@ Trabalho diariamente com o que o mercado chama de *AI-native development*: **con
 
 ## 🧠 [ORCHESTRATOR](https://github.com/tomfickk-cpu/orchestrator)
 
-**894 agentes de IA · 960 testes · cobertura 100% do núcleo · v4.51.0**
+**916 agentes de IA · 1.115 testes · cobertura 100% do núcleo · v4.56.7**
 
 ![Orchestrator](projetos/orchestrator/assets/cover.png)
 
@@ -28,7 +28,7 @@ Plataforma de orquestração neural multiagente em produção:
 - **Observabilidade** — Prometheus + 21 dashboards Grafana
 - **Compliance nativa** — LGPD, eMAG e verticais brasileiras (Pix/BACEN, licitações)
 
-📊 **Métricas de produção:** 364 runs no ledger · 97,25% de sucesso · roteamento < 1s · 51 releases versionadas
+📊 **Métricas de produção:** 157 runs no ledger · 90,4% de sucesso · roteamento < 1s · 69 releases versionadas
 
 ---
 
