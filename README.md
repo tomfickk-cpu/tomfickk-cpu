@@ -30,9 +30,11 @@ Plataforma de orquestração neural multiagente em produção:
 
 ---
 
-## 🛡️ [GERENTE GUARDIÃO](https://github.com/tomfickk-cpu/gerente-guardiao)
+## 🛡️ GERENTE GUARDIÃO
 
 **Visão computacional real · 41 testes · 19 checks E2E · separação ReID 0.64**
+
+![Gerente Guardião](projetos/gerente-guardiao/assets/cover.svg)
 
 Serviço anti-evasão para restaurantes — detecta saídas sem pagamento em tempo real:
 
@@ -44,6 +46,8 @@ Serviço anti-evasão para restaurantes — detecta saídas sem pagamento em tem
 - **CI containerizado que prova a ponta** — a simulação de visão precisa gerar um alerta real consultável na API para o pipeline passar
 
 **Stack:** NestJS · PostgreSQL + pgvector · Python/ONNX/OpenCV · Next.js · Socket.IO · Docker
+
+📂 **[Case completo →](projetos/gerente-guardiao/)** — screenshots do produto em operação, métricas ReID medidas e [arquitetura detalhada](projetos/gerente-guardiao/docs/ARQUITETURA.md)
 
 ---
 
@@ -71,4 +75,4 @@ Serviço anti-evasão para restaurantes — detecta saídas sem pagamento em tem
 
 ---
 
-*Código-fonte dos projetos é proprietário. Repositórios públicos são vitrines técnicas: arquitetura, decisões e evidências de produção. Demos e detalhes sob NDA.*
+*Código-fonte dos projetos é proprietário. Este repositório é a vitrine técnica unificada: arquitetura, decisões e evidências de produção — sem expor implementação. Demos e detalhes sob NDA.*

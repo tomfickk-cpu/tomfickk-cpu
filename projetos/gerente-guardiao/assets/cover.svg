@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#0e1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3a0"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <g opacity="0.07" stroke="#3b82f6" stroke-width="1">
+    <path d="M0 60 H1200 M0 140 H1200 M0 220 H1200 M0 300 H1200 M0 380 H1200"/>
+    <path d="M150 0 V420 M350 0 V420 M550 0 V420 M750 0 V420 M950 0 V420 M1150 0 V420"/>
+  </g>
+  <!-- escudo -->
+  <g transform="translate(90,120)">
+    <path d="M90 0 L170 30 V90 C170 150 130 185 90 200 C50 185 10 150 10 90 V30 Z"
+          fill="none" stroke="url(#accent)" stroke-width="6"/>
+    <path d="M55 95 L80 120 L130 60" fill="none" stroke="#22d3a0" stroke-width="10"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="310" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="800" fill="#f1f5f9">
+    GERENTE GUARDIÃO
+  </text>
+  <text x="312" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#94a3b8">
+    Anti-evasão para restaurantes · visão computacional + POS + alertas em tempo real
+  </text>
+  <!-- chips de métricas -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">
+    <rect x="312" y="265" width="215" height="52" rx="26" fill="#13203a" stroke="#22d3a0" stroke-width="1.5"/>
+    <text x="335" y="299" fill="#22d3a0">ReID sem rosto</text>
+    <rect x="545" y="265" width="205" height="52" rx="26" fill="#13203a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="568" y="299" fill="#60a5fa">OSNet · ONNX</text>
+    <rect x="768" y="265" width="245" height="52" rx="26" fill="#13203a" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="790" y="299" fill="#fbbf24">WhatsApp + tempo real</text>
+    <rect x="312" y="335" width="260" height="52" rx="26" fill="#13203a" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="334" y="369" fill="#f87171">fail-closed no dinheiro</text>
+    <rect x="590" y="335" width="300" height="52" rx="26" fill="#13203a" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="612" y="369" fill="#c4b5fd">41 testes · CI que prova a ponta</text>
+  </g>
+  <text x="1120" y="390" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#475569">
+    código proprietário · vitrine técnica
+  </text>
+</svg>
