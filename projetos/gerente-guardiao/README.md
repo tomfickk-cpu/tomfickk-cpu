@@ -68,6 +68,10 @@ O pipeline valida estabilidade temporal do descritor ao longo do track (pior cos
 
 ## O produto em operação
 
+**Fluxo real, capturado ao vivo:** uma `EXIT_ATTEMPT` da câmera de saída cruza com `pos_state=OPEN` da mesa 9 → `EVASAO_ALERTA` crítico entra na tela por WebSocket, sem refresh:
+
+![Fluxo de alerta ao vivo](assets/alert-flow.gif)
+
 | Triagem de alertas em tempo real | Analytics gerencial |
 |---|---|
 | ![Alertas](assets/alerts.png) | ![Analytics](assets/analytics.png) |
