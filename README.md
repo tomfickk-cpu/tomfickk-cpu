@@ -34,7 +34,7 @@ Plataforma de orquestração neural multiagente em produção:
 
 ## 🛡️ GERENTE GUARDIÃO
 
-**Visão computacional real · 41 testes · 19 checks E2E · separação ReID 0.64**
+**Visão computacional real · 41 testes · 19 checks E2E · separação ReID medida**
 
 ![Gerente Guardião](projetos/gerente-guardiao/assets/cover.svg)
 

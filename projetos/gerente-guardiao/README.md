@@ -51,11 +51,13 @@ Extração com **OSNet x1_0** treinado em MSMT17, exportado para ONNX (batch din
 
 | Modelo | Mesma pessoa (cos) | Pessoa diferente (cos) | Separação |
 |---|---|---|---|
-| **OSNet x1_0 MSMT17** (em uso) | 0.987 | 0.348 | **0.639** |
-| OSNet x0.25 MSMT17 | 0.994 | 0.397 | 0.596 |
-| OSNet x1_0 ImageNet | 0.999 | 0.832 | 0.167 ← pesos errados, provado por medição |
+| **OSNet x1_0 MSMT17** (em uso) | 1.000 | 0.588 | **0.412** |
+| OSNet x0.25 MSMT17 | 1.000 | 0.501 | 0.499 |
+| OSNet x1_0 ImageNet | 1.000 | 0.757 | 0.243 ← pesos errados, provado por medição |
 
-O pipeline valida estabilidade temporal do descritor ao longo do track (pior cos > 0.85 em sequência de vídeo) e separação entre pessoas — testado com sequência de frames real passando pelo `RTSPCapture` de produção, não com mocks.
+*Medição executada contra os modelos ONNX de produção: pior caso de variação de posição para a mesma pessoa vs. melhor caso entre pessoas com aparências distintas.*
+
+O pipeline valida estabilidade temporal do descritor ao longo do track (pior cos > 0.85 em sequência de vídeo — medido 1.000) e separação entre pessoas — testado com sequência de frames real passando pelo `RTSPCapture` de produção, não com mocks.
 
 ## Qualidade como processo
 
